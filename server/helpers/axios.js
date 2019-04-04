@@ -7,7 +7,7 @@ module.exports = {
     pixabay: axios.create({
         baseURL : 'https://pixabay.com/api/'
     }),
-    wiki : axiox.create({
+    wiki : axios.create({
         baseURL :`https://en.wikipedia.org/w/api.php`
     })
     // ,
